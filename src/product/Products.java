@@ -2,13 +2,13 @@ package product;
 
 import java.math.BigDecimal;
 
-public class Drinks {
+public class Products {
 
     private int prodNumber;
     private String product;
     private BigDecimal price;
 
-    public Drinks (int aProdNumber, String aProdName, BigDecimal aPrice) {
+    public Products (int aProdNumber, String aProdName, BigDecimal aPrice) {
         prodNumber = aProdNumber;
         product = aProdName;
         price = aPrice;

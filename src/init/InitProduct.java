@@ -1,13 +1,13 @@
 package init;
 
-import product.Drinks;
+import product.Products;
 import java.math.BigDecimal;
 
 public class InitProduct {
 
-    Drinks drPepper = new Drinks (1,"Dr.Pepper", new BigDecimal("1.25"));
-    Drinks cocaCola = new Drinks (2,"Coca-Cola", new BigDecimal("1.25"));
-    Drinks sprite = new Drinks (3,"Sprite", new BigDecimal("1.25"));
-    Drinks laysOriginal = new Drinks (4,"Lays Original", new BigDecimal("1.50"));
+    Products drPepper = new Products (1,"Dr.Pepper", new BigDecimal("1.25"));
+    Products cocaCola = new Products (2,"Coca-Cola", new BigDecimal("1.25"));
+    Products sprite = new Products (3,"Sprite", new BigDecimal("1.25"));
+    Products laysOriginal = new Products (4,"Lays Original", new BigDecimal("1.50"));
 
 }
