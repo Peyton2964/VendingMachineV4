@@ -14,4 +14,8 @@ public class UI {
         System.out.println("5) Root Beer $1.50");
         System.out.println("");
     }
+
+    public static void printCheckoutUI(){
+        System.out.println("    Insert currency to pay for product.");
+    }
 }
